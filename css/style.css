@@ -1,6 +1,6 @@
 * {
   /* box-sizing: border-box; */
-  border: solid red 5px;
+  border: solid red 2px;
 }
 
 body {
@@ -21,4 +21,42 @@ h6 {
 
 p {
   margin: 0;
+}
+/* Main body */
+
+/* portfolio grid */
+#portfoliogrid {
+  display: grid;
+  grid-template-rows: 600px 200px 200px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "project1 project1"
+  "project2 project3"
+  "project4 project5"
+  ;
+}
+
+.portfoliogridArea {
+ display: grid;
+ justify-content: flex-end;
+}
+
+#project1 {
+  grid-area: project1;
+}
+
+#project2 {
+  grid-area: project2;
+}
+
+#project3 {
+  grid-area: project3;
+}
+
+#project4 {
+  grid-area: project4;
+}
+
+#project5 {
+  grid-area: project5;
 }
