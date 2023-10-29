@@ -60,3 +60,10 @@ p {
 #project5 {
   grid-area: project5;
 }
+
+/* Contact section */
+.contactDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
