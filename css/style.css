@@ -22,6 +22,18 @@ h6 {
 p {
   margin: 0;
 }
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
 /* Main body */
 
 /* portfolio grid */
