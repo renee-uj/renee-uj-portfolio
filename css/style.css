@@ -31,7 +31,6 @@ p {
 
 .headerItems {
 display: flex;
-justify-content:;
 }
 
 .hero-banner {
@@ -49,12 +48,12 @@ justify-content:;
 
 /* Main body */
 .title {
-display: flex;
-flex-direction: column;
-text-align: right;
-border-right: skyblue solid 2px;
-padding: 10px;
-margin-right: 15px;
+ display: flex;
+ flex-direction: column;
+ text-align: right;
+ border-right: skyblue solid 2px;
+ padding: 10px;
+ margin-right: 15px;
 }
 
 .page-section {
@@ -83,12 +82,10 @@ margin-right: 15px;
  display: grid;
  justify-content: flex-end;
  color: skyblue;
- padding: ;
 }
 
 #project1 {
   grid-area: project1;
-  
 }
 
 #project2 {
