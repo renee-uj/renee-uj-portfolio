@@ -55,7 +55,10 @@ display: flex;
  padding: 10px;
  margin-right: 15px;
 }
-
+#work h2 {
+  display: inline-block;
+  height: 900px;
+}
 .page-section {
   display: flex;
   color: skyblue;
@@ -82,28 +85,36 @@ display: flex;
  display: grid;
  justify-content: flex-end;
  color: skyblue;
+ background-position: center;
+ background-repeat: no-repeat;
 }
 
 #project1 {
   grid-area: project1;
+  background-image: url(../images/02-portfolio-1.jpg);
+  padding-bottom: 20px;
 }
 
 #project2 {
   grid-area: project2;
-  
+  background-image: url(../images/02-portfolio-2.jpg);
 }
 
 #project3 {
   grid-area: project3;
+  background-image: url(../images/02-portfolio-3.jpg);
 }
 
 #project4 {
   grid-area: project4;
+  background-image: url(../images/02-portfolio-4.jpg);
 }
 
 #project5 {
   grid-area: project5;
+  background-image: url(../images/02-portfolio-2.jpg);
 }
+
 
 /* Contact section */
 .page-sectionContact {
