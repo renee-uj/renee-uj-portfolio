@@ -50,19 +50,31 @@ display: flex;
 .title {
  display: flex;
  flex-direction: column;
+ align-items: flex-start;
  text-align: right;
- border-right: skyblue solid 2px;
+ /* border-right: skyblue solid 4px; */
  padding: 10px;
  margin-right: 15px;
+ width: 100px;
 }
-#work h2 {
+/* #work h2 {
   display: inline-block;
   height: 900px;
-}
+} */
 .page-section {
   display: flex;
+  flex-direction: row;
   color: skyblue;
   padding: 20px;
+}
+#about {
+  display: flex;
+  align-items: flex-start;
+}
+
+#work {
+  display: flex;
+  align-items: flex-start;
 }
 
 #aboutmeText {
