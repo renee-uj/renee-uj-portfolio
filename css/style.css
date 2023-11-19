@@ -84,7 +84,7 @@ display: flex;
 .portfoliogridArea {
  display: grid;
  justify-content: flex-end;
- color: skyblue;
+ color: black;
  background-position: center;
  background-repeat: no-repeat;
 }
@@ -93,26 +93,54 @@ display: flex;
   grid-area: project1;
   background-image: url(../images/02-portfolio-1.jpg);
   padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }
 
 #project2 {
   grid-area: project2;
   background-image: url(../images/02-portfolio-2.jpg);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }
 
 #project3 {
   grid-area: project3;
   background-image: url(../images/02-portfolio-3.jpg);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }
 
 #project4 {
   grid-area: project4;
   background-image: url(../images/02-portfolio-4.jpg);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 20px;
 }
 
 #project5 {
   grid-area: project5;
   background-image: url(../images/02-portfolio-2.jpg);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+.textContainer {
+  background-color: skyblue;
+  opacity: 0.5;
+  height: 50px;
+  width: 100px;
+
 }
 
 
